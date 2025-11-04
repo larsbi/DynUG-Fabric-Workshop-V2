@@ -1,0 +1,13 @@
+Navigate to https://app.fabric.microsoft.com/
+Logon with the user provided to you. The initial password is FabricDynUG2025
+
+<b>Create workspace</b>
+
+Use the name "DynUG workshop XX" where XX is the number of your user.
+
+<b>Setup task flow in workspace</b>
+We need:
+- 2 Get data 
+- 2 Store data
+- 1 Prepare
+- Visualize data
