@@ -61,22 +61,24 @@ Validate that DynUG_Lakehouse_Silver has table “customerreviews”:
 
 Next, we must make copies of the other four tables from DynUG_Lakehouse_Bronze to DynUG_Lakehouse_Silver.
 
-In this lab, we don’t need to perform further transformations.
+In this lab, we don’t need to perform further transformations, but we must get the other four tables from "DynUG_Lakehouse_Bronze" to "DynUG_Lakehouse_Silver". The easy way to achieve this is to create shortcuts Lakehouse "DynUG_Lakehouse_Silver". 
 
-Create another code cell and use this code to create tables in DynUG_Lakehouse_Silver:
-```python
-df_customer = spark.read.table("DynUG_Lakehouse_Bronze.DimCustomer")
-df_customer.write.format("delta").saveAsTable("DynUG_Lakehouse_Silver.DimCustomer")
+Navigate to "DynUG_Lakehouse_Silver" and select "Get data" > "New shortcut" in Home ribbon. Select Microsoft OneLake followed by "DynUG_Lakehouse_Bronze", under Tables select:
 
-df_DimDate = spark.read.table("DynUG_Lakehouse_Bronze.DimDate")
-df_DimDate.write.format("delta").saveAsTable("DynUG_Lakehouse_Silver.DimDate")
+• DimCustomer
 
-df_DimProduct = spark.read.table("DynUG_Lakehouse_Bronze.DimProduct")
-df_DimProduct.write.format("delta").saveAsTable("DynUG_Lakehouse_Silver.DimProduct")
+• DimDate
 
-df_FactSales = spark.read.table("DynUG_Lakehouse_Bronze.FactSales")
-df_FactSales.write.format("delta").saveAsTable("DynUG_Lakehouse_Silver.FactSales")
-```
+• DimProduct
+
+• FactSales
+
+<img width="306" height="391" alt="image" src="https://github.com/user-attachments/assets/4973a3fa-f2bf-40d2-9555-06870d975882" />
+
+
+<img width="306" height="391" alt="image" src="https://github.com/user-attachments/assets/58b1572e-369f-4f74-871d-5a8137ee9a6a" />
+
 Validate that you now have 5 tables in DynUG_Lakehouse_Silver:
 
-<img width="448" height="455" alt="image" src="https://github.com/user-attachments/assets/1a061361-a828-4363-8fb7-274b3812fd86" />
+<img width="315" height="405" alt="image" src="https://github.com/user-attachments/assets/0015c409-6839-4924-ad3d-30c1aca56c80" />
+
