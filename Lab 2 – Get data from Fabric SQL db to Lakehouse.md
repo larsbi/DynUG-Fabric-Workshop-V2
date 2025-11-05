@@ -42,9 +42,11 @@ In “Connect to data destination” section. Make sure both SalesLT.DimProduct 
 <img width="940" height="352" alt="image" src="https://github.com/user-attachments/assets/057835e2-dd7b-4e7c-bd8e-a9556cb4ebbb" />
 
 Then click Next
+
 Validate that the destination is the Lakehouse you created, also check that “Start data transfer immediately” is selected:
 
-<img width="940" height="512" alt="image" src="https://github.com/user-attachments/assets/28d21719-788a-4b36-adfe-c1c04e985cbc" />
+<img width="1395" height="768" alt="image" src="https://github.com/user-attachments/assets/41f815cf-4e40-4cc2-a375-d2c9c2b2ad70" />
+
 
 Click Save + Run
 
