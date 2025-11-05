@@ -11,7 +11,9 @@ The source file “Customer reviews.xls” is stored in the Lakehouse called “
 
 If you cannot locate “DynUG_source_Lakehouse” on the landing page, select OneLake catalog in the left navigation to locate the Lakehouse. Expand Files folder and select “Customer reviews.xls”, followed by clicking Create.
 
-Click on [Table] in the row where name is “CustomerReviews”, this will expand the Excel-table called “CustomerReviews”. Rename the query to “CustomerReviews”.
+Click on [Table] in the row where name is “CustomerReviews”, this will expand the Excel-table called “CustomerReviews”. Rename the query to “CustomerReviews”:
+
+<img width="940" height="400" alt="image" src="https://github.com/user-attachments/assets/9b700ae7-c750-4515-a2d6-84d12a08d177" />
 
 No further transformations are needed. However, the Data destination should be the Lakehouse you created. Select + next to Data destination in the lower right-hand corner:
 
