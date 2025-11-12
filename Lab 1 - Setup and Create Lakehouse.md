@@ -1,14 +1,9 @@
-# Launch Fabric
-Navigate to https://app.fabric.microsoft.com/ Logon with the user provided to you. 
-
-User name is DynUG**@fabricconf.onmicrosoft.com where ** is the number assigned to you, the initial password is “Hell0Fabric” (0 is zero). When you initially login, you will need to create your own password.
-
 # Create Workspace
 Use the name "DynUG workshop XX" where XX is the number of your user. Make sure workspace is assigned to “FabConUS5-P4 North Central US”:
 
 <img width="733" height="897" alt="image" src="https://github.com/user-attachments/assets/d2b612ef-bb41-4460-9ac8-7a4431f505ef" />
 
-**Task flow**
+# Setup Task flow
 
 Setup task flow in workspace Select predesigned task flow "Medallion" Delete:
 
@@ -28,7 +23,7 @@ The Task flow should look like this:
 
 <img width="1612" height="278" alt="image" src="https://github.com/user-attachments/assets/6a2094b2-cc45-4982-b05c-dd1cd609869b" />
 
-**Create Lakehouse**
+# Create Lakehouse
 
 Create new Lakehouse by creating “New item” from task “Bronze data”:
 
