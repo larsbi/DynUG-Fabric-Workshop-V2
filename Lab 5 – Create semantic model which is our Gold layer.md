@@ -44,8 +44,6 @@ Save the report with the name “Sales by sentiment”:
 
 <img width="948" height="635" alt="image" src="https://github.com/user-attachments/assets/d4fa212b-646f-442c-9ed0-58c168f6b08a" />
 
-Make sure your report is attached to the task "Data visualize"
-
 # Final result
 
 Go back to the workspace and you have now created your small Fabric project, and the content of the workspace should look like this:
