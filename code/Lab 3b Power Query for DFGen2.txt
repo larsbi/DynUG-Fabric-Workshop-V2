@@ -5,4 +5,5 @@ let
     #"Changed Type1" = Table.TransformColumnTypes(#"Promoted Headers",{{"StoreID", type text}, {"StoreName", type text}}),
     #"Replaced Value" = Table.ReplaceValue(#"Changed Type1","Location","",Replacer.ReplaceText,{"StoreID"})
 in
+
     #"Replaced Value"
