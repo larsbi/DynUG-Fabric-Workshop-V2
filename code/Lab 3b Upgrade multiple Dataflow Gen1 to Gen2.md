@@ -1,11 +1,11 @@
-Semantic Link Labs https://github.com/microsoft/semantic-link-labs can be utilized to upgrade multipe Dataflow Gen1 to Gen2 following these instructions.
+<a href="https://github.com/microsoft/semantic-link-labs">Semantic Link Labs</a>  can be utilized to upgrade multipe Dataflow Gen1 to Gen2 following these instructions.
 
-#Install Semantic Link Labs in your notebook
+# Install Semantic Link Labs in your notebook
 ```python
 %pip install semantic-link-labs
 ```
 
-#Upgrade all Dataflow Gen1 in a workspace
+# Upgrade all Dataflow Gen1 in a workspace
 ```python
 workspace_name = "<enter workspace name>"
 alldataflows = labs.list_dataflows(workspace_name)
