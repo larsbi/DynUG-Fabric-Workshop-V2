@@ -83,13 +83,9 @@ Navigate to "DynUG_Lakehouse_Silver" and select "Get data" > "New shortcut" in H
 
 • FactSales
 
-# *** update image ***
+<img width="306" height="415" alt="image" src="https://github.com/user-attachments/assets/afe450aa-cbec-4617-be80-1a31fbe75d8a" />
 
-<img width="306" height="391" alt="image" src="https://github.com/user-attachments/assets/4973a3fa-f2bf-40d2-9555-06870d975882" />
+Validate that you now have 6 tables in DynUG_Lakehouse_Silver:
 
-Validate that you now have 5 tables in DynUG_Lakehouse_Silver:
-
-# *** update image ***
-
-<img width="315" height="405" alt="image" src="https://github.com/user-attachments/assets/0015c409-6839-4924-ad3d-30c1aca56c80" />
+<img width="405" height="439" alt="image" src="https://github.com/user-attachments/assets/9c0fd723-041f-4596-9e41-e2c7c48f3fac" />
 
