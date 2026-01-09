@@ -1,3 +1,5 @@
+# Reuse existing Power Query or M script
+
 If you have some existing Power Query - either from Power BI Desktop or Dataflow Gen1 - you want to reuse, that can be done easily using Dataflow Gen2 in Fabric.
 
 In the <a href="https://github.com/larsbi/DynUG-Fabric-Workshop-V2/tree/main/code">code folder</a>, you find 3 files you can use to test reusing Power Query:
@@ -22,6 +24,7 @@ You decide which option you want to use and instructions are found below.
 
 The important part is that you load data to "DynUG_Lakehouse_Bronze".
 
+If you choose to create a new Dataflow Gen2, you should add a new "Get data" task and link it to "Bronze data"
 
 # Reuse from Power BI Desktop or M scripts
 
