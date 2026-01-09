@@ -22,24 +22,30 @@ Use this SQL to create the 6 views:
 CREATE OR ALTER VIEW FactSales AS
 SELECT *
 FROM DynUG_Lakehouse_Silver.[dbo].[FactSales];
+GO
 
 CREATE OR ALTER VIEW customerreviews AS
 SELECT *
 FROM DynUG_Lakehouse_Silver.[dbo].[customerreviews];
+GO
 
 CREATE OR ALTER VIEW DimCustomer AS
 SELECT *
 FROM DynUG_Lakehouse_Silver.[dbo].[DimCustomer];
+GO
 
 CREATE OR ALTER VIEW DimDate AS
 SELECT *
 FROM DynUG_Lakehouse_Silver.[dbo].[DimDate];
+GO
 
 CREATE OR ALTER VIEW DimProduct AS
 SELECT *
 FROM DynUG_Lakehouse_Silver.[dbo].[DimProduct];
+GO
 
 CREATE OR ALTER VIEW DimStore AS
 SELECT *
 FROM DynUG_Lakehouse_Silver.[dbo].[DimStore];
+GO
 ```
