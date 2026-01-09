@@ -15,13 +15,9 @@ Setup task flow in workspace, select predesigned task flow "Medallion".
 
 Create link between “Silver data” and “Gold data”. 
 
-**Next, create new two new tasks:**
-
-•	"Get data" task, name it "Reuse Power Query"
+**Next, create new one new tasks:**
 
 •	"Store data" task, name it "Semantic model"
-
-Create a link between "Reuse Power Query" and "Bronze data".
 
 Modify the link between "Gold data" and "Data visualize" to be a link between from "Gold data" to "Semantic model", and create new link from "Semantic model" to "Data visualize".
 
@@ -33,7 +29,7 @@ Modify the link between "Gold data" and "Data visualize" to be a link between fr
 
 The Task flow should look like this:
 
-<img width="1524" height="297" alt="image" src="https://github.com/user-attachments/assets/5f30b698-5d91-4bdd-94db-7708fccde857" />
+<img width="1743" height="261" alt="image" src="https://github.com/user-attachments/assets/9fbdc3ea-e135-476a-bdff-b1c4fcbcf00f" />
 
 # Create Lakehouse
 
