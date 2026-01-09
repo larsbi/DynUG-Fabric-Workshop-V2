@@ -30,7 +30,7 @@ If needed double-click a relationship and modify cardinality, and column mapping
 
 Now you created a basic semantic model in Direct Lake mode. In real life, you will also define measures, hide columns and configure data categories & summarize by for relevant columns and more.
 
-Next, go back to the workspace and attach the semantic model to the task “Golden data”.
+Next, go back to the workspace and attach the semantic model to the task “Semantic model”.
 
 # Create Power BI report
 
