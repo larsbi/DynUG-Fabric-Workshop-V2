@@ -5,7 +5,9 @@ Use the name "DynUG workshop XX" where XX is the number of your user. Make sure 
 
 # Setup Task flow
 
-Setup task flow in workspace Select predesigned task flow "Medallion" Delete:
+Setup task flow in workspace, select predesigned task flow "Medallion". 
+
+**First delete:**
 
 •	“Further transform”
 
@@ -13,7 +15,17 @@ Setup task flow in workspace Select predesigned task flow "Medallion" Delete:
 
 Create link between “Silver data” and “Gold data”. 
 
-Rename
+**Next, create new two new tasks:**
+
+•	"Get data" task, name it "Reuse Power Query"
+
+•	"Store data" task, name it "Semantic model"
+
+Create a link between "Reuse Power Query" and "Bronze data".
+
+Modify the link between "Gold data" and "Data visualize" to be a link between from "Gold data" to "Semantic model", and create new link from "Semantic model" to "Data visualize".
+
+**Finally, rename**
 
 • "High-volume data ingest" to "Load from Fabric SQL db" 
 
@@ -21,7 +33,7 @@ Rename
 
 The Task flow should look like this:
 
-<img width="1612" height="278" alt="image" src="https://github.com/user-attachments/assets/6a2094b2-cc45-4982-b05c-dd1cd609869b" />
+<img width="1524" height="297" alt="image" src="https://github.com/user-attachments/assets/5f30b698-5d91-4bdd-94db-7708fccde857" />
 
 # Create Lakehouse
 
