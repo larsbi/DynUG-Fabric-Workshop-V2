@@ -1,8 +1,8 @@
 # Create semantic model and Power BI report
 
-Create a semantic model that will act as our Gold layer. Follow these steps:
+Create a semantic model based on Gold layer in Warehouse. Follow these steps:
 
-1.	Go to Lakehouse “DynUG_Lakehouse_Silver” (makes sure you have all 5 tables, refresh Lakehouse if needed)
+1.	Go to Warehouse “DynUG_Warehouse_Gold” (makes sure you have all 5 tables, refresh Lakehouse if needed)
 
 2.	In Home ribbon, select New semantic model:
 <img width="802" height="131" alt="image" src="https://github.com/user-attachments/assets/e291fb35-d252-4ba5-8ee9-9c999ab98d74" />
