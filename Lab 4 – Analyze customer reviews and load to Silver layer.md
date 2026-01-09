@@ -79,11 +79,17 @@ Navigate to "DynUG_Lakehouse_Silver" and select "Get data" > "New shortcut" in H
 
 • DimProduct
 
+• DimStore
+
 • FactSales
+
+# *** update image ***
 
 <img width="306" height="391" alt="image" src="https://github.com/user-attachments/assets/4973a3fa-f2bf-40d2-9555-06870d975882" />
 
 Validate that you now have 5 tables in DynUG_Lakehouse_Silver:
+
+# *** update image ***
 
 <img width="315" height="405" alt="image" src="https://github.com/user-attachments/assets/0015c409-6839-4924-ad3d-30c1aca56c80" />
 
