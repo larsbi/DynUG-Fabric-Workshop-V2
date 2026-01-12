@@ -44,9 +44,9 @@ In “Connect to data destination” section. Make sure:
 
 •	"Load to new table" is selected
 
-•	To remove “SalesLT_” in the predefined table name:
+•	Replace schema name “SalesLT” with "dbo" in for table name:
 
-<img width="940" height="352" alt="image" src="https://github.com/user-attachments/assets/057835e2-dd7b-4e7c-bd8e-a9556cb4ebbb" />
+<img width="1151" height="442" alt="image" src="https://github.com/user-attachments/assets/7a2fe34d-3043-4f16-a9bf-321d0ce42ff7" />
 
 Then click Next
 
