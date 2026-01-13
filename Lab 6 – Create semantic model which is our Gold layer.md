@@ -2,26 +2,33 @@
 
 Create a semantic model based on Gold layer in Warehouse. Follow these steps:
 
-1.	Go to Warehouse “DynUG_Warehouse_Gold” (makes sure you have all 5 tables, refresh Lakehouse if needed)
+1.	Go to Warehouse “DynUG_Warehouse_Gold”, make sure you have all 5 views:
 
-2.	In Home ribbon, select New semantic model:
-<img width="802" height="131" alt="image" src="https://github.com/user-attachments/assets/e291fb35-d252-4ba5-8ee9-9c999ab98d74" />
+    <img width="437" height="605" alt="image" src="https://github.com/user-attachments/assets/02252061-7546-4004-894c-2a72b1fbbbd6" />
 
-3.	Use the name “Sales and sentiment model” and select all 5 tables (if not visible, cancel “New semantic model” dialog and go back to refresh Lakehouse)
+3.	In Home ribbon, select New semantic model:
+
+    <img width="649" height="113" alt="image" src="https://github.com/user-attachments/assets/003fa4fc-8298-492c-bdde-7d49afbc25cd" />
+
+5.	Use the name “Sales and sentiment model” and select all 6 views
+
+    <img width="598" height="732" alt="image" src="https://github.com/user-attachments/assets/ec944b86-1206-406c-9b98-a582bb1207e9" />
 
     Click Confirm
 
-4.	The web model view will appear after a few seconds. Here, you must create the following relationships:
+7.	The web model view will appear after a few seconds. Here, you must create the following relationships:
 
-    dimcustomer.CustomerID -> factsales.CustomerID
+    FactSales.CustomerID -> DimCustomer.CustomerID
     
-    dimdate.DateID -> factsales.DateID
+    FactSales.DateID -> DimDate.DateID
     
-    dimproduct.ProductID -> factsales.ProductID 
-    
-    customerreview.CustomerID -> factsales.CustomerID
+    FactSales.ProductID -> DimProduct.ProductID
 
-5.	Validate the relationships and cardinality – it should be "Many to one" where Fact is on the Many-side. This can be validated by seeing * on the Fact and 1 on Dimensionts:
+  	DimProduct.StoreID -> DimStore.StoreID
+    
+    customerreview.CustomerID -> FactSales.CustomerID
+
+9.	Validate the relationships and cardinality – it should be "Many to one" where Fact is on the Many-side. This can be validated by seeing * on the Fact and 1 on Dimensionts:
 <img width="940" height="686" alt="image" src="https://github.com/user-attachments/assets/ca2f314a-7a1b-4f07-b052-a26b4526bab9" />
 
 If needed double-click a relationship and modify cardinality, and column mapping:
