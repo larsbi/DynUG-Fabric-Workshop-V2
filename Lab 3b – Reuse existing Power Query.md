@@ -22,7 +22,7 @@ In the <a href="https://github.com/larsbi/DynUG-Fabric-Workshop-V2/tree/main/cod
 
 You decide which option you want to use and instructions are found below.
 
-The important part is that you load data to "DynUG_Lakehouse_Bronze".
+The important part is that you load data to "DynUG_Lakehouse_Bronze" to a table called DimStore.
 
 If you choose to create a new Dataflow Gen2, you should add a new "Get data" task and link it to "Bronze data"
 
