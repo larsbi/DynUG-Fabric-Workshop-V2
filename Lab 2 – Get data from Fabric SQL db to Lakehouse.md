@@ -14,9 +14,13 @@ Expand Tables section and SalesLT schema, select:
 
 •	DimDate
 
+If you cannot create shortcuts to individual tables, it is because you are in "schema shortcut" creation. In this case, cancel the shortcut creation and go to elipsis next to "dbo", and select "New table shortcut":
+
+<img width="507" height="359" alt="image" src="https://github.com/user-attachments/assets/358a150c-d454-401b-ab22-075c836105ee" />
+
 Validate that the two tables are part of Lakehouse:
 
-<img width="503" height="458" alt="image" src="https://github.com/user-attachments/assets/f415e559-3a40-4e41-941d-f66f361e92cd" />
+<img width="326" height="343" alt="image" src="https://github.com/user-attachments/assets/a64857fa-d0ed-4127-b401-144087e8a688" />
 
 
 # Load data from views in Fabric SQL database
@@ -71,7 +75,7 @@ Navigate back to Lakehouse and validate that two new tables are created. If you 
 
 You may see table called Unidentified, if that happens, refresh again. It can take a few minutes to show up:
 
-<img width="508" height="589" alt="image" src="https://github.com/user-attachments/assets/cf22062a-18bc-4eab-9a39-fad0e1307dc4" />
+<img width="327" height="426" alt="image" src="https://github.com/user-attachments/assets/15da3e6b-288b-4028-b780-56e08fb9bbd3" />
 
 Go to workspace and add “DynUG pipeline” to “Load from Fabric SQL db” task. 
 
