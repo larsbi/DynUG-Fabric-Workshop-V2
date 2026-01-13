@@ -16,7 +16,7 @@ In the Notebook attach Lakehouse “DynUG_Lakehouse_Bronze” and “DynUG_Lakeh
 
 In the first code cell that says “# Welcome to your new notebook”, delete the prepopulated content and add import required libraries to use AI functions for PySpark. You can find the answer in documentation at https://learn.microsoft.com/en-us/fabric/data-science/ai-functions/overview (remember to look for PySpark and not pandas) 
 
-You can also find the answer at [DynUG-Fabric-Workshop/code/Lab 4 AI functions library.md at main · larsbi/DynUG-Fabric-Workshop](https://github.com/larsbi/DynUG-Fabric-Workshop/tree/main/code)
+You can also find the answer the <a href="/code">code folder</a>
 
 Run the code cell.
 
