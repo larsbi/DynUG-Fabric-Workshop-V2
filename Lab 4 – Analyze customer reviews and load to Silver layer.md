@@ -57,7 +57,7 @@ dfscore.write.format("delta").saveAsTable("<table_name>")
 ```
 Where dfscore is the name of the dataframe we created when doing the sentiment analysis. Again, you must remember to prefix the table name with the Lakehouse name. Use the following syntax:
 ```python
-dfscore.write.format("delta").saveAsTable("DynUG_Lakehouse_Silver.CustomerReviews")
+dfscore.write.format("delta").saveAsTable("DynUG_Lakehouse_Silver.dbo.CustomerReviews")
 ```
 Run the code cell to load transformed data to Silver Lakehouse.
 
