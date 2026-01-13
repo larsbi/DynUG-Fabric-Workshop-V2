@@ -63,7 +63,7 @@ Run the code cell to load transformed data to Silver Lakehouse.
 
 Validate that DynUG_Lakehouse_Silver has table “customerreviews”:
 
-<img width="478" height="277" alt="image" src="https://github.com/user-attachments/assets/2215f3a1-3170-47bf-a878-7ddfc5e24ec4" />
+<img width="305" height="206" alt="image" src="https://github.com/user-attachments/assets/5b5216f6-719f-401b-b60f-f9d7ad5e253e" />
 
 # Create shortcuts for tables in Bronze Lakehouse
 
@@ -83,9 +83,8 @@ Navigate to "DynUG_Lakehouse_Silver" and select "Get data" > "New shortcut" in H
 
 • FactSales
 
-<img width="306" height="415" alt="image" src="https://github.com/user-attachments/assets/afe450aa-cbec-4617-be80-1a31fbe75d8a" />
+<img width="317" height="460" alt="image" src="https://github.com/user-attachments/assets/2e27f2bb-a474-4786-b439-2144678e43e8" />
 
 Validate that you now have 6 tables in DynUG_Lakehouse_Silver:
 
-<img width="405" height="439" alt="image" src="https://github.com/user-attachments/assets/9c0fd723-041f-4596-9e41-e2c7c48f3fac" />
-
+<img width="308" height="400" alt="image" src="https://github.com/user-attachments/assets/6c632c4a-a19b-4409-bd66-eaa790789de7" />
