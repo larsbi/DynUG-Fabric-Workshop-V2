@@ -37,6 +37,9 @@ Create new Lakehouse by creating “New item” from task “Bronze data”:
 
 <img width="495" height="248" alt="image" src="https://github.com/user-attachments/assets/1e7f5f6f-58f5-4b32-9172-33480fc0004d" />
 
-Use the name "DynUG_Lakehouse_Bronze".
+Use the name "DynUG_Lakehouse_Bronze", keep default selection of "Bronze data" and "Lakehouse schemas":
+
+<img width="717" height="481" alt="image" src="https://github.com/user-attachments/assets/bcbc3ee4-8037-41ce-a8ce-c719675ffee0" />
+
 
 Leave Lakehouse open
