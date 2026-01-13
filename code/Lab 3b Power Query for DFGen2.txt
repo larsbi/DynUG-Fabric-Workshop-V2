@@ -1,9 +1,0 @@
-let
-    Source = Csv.Document(AzureStorage.BlobContents("https://larsadlsgen2.blob.core.windows.net/fabric/Store_dimension.csv"),[Delimiter=";", Columns=2, QuoteStyle=QuoteStyle.None]),
-    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Column1", type text}, {"Column2", type text}}),
-    #"Promoted Headers" = Table.PromoteHeaders(#"Changed Type", [PromoteAllScalars=true]),
-    #"Changed Type1" = Table.TransformColumnTypes(#"Promoted Headers",{{"StoreID", type text}, {"StoreName", type text}}),
-    #"Replaced Value" = Table.ReplaceValue(#"Changed Type1","Location","",Replacer.ReplaceText,{"StoreID"})
-in
-
-    #"Replaced Value"
