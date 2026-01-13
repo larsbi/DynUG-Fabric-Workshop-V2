@@ -10,7 +10,7 @@ Navigate back to workspace and confirm that Warehouse is assigned to task "Gold 
 
 # Get data from Silver Lakehouse to Warehouse
 
-The easiest way to make data available in the Warehouse, is to create views based on tables in Silver Lakehouse utilizing SQL Analytics Endpoint.
+There are several ways to get data from Silver Lakehouse into Gold Warehouse. In this lab we will create tables using T-SQL.
 
 In Warehouse, create a New SQL query:
 
@@ -19,33 +19,45 @@ In Warehouse, create a New SQL query:
 Use this SQL to create the 6 views:
 
 ```sql
-CREATE OR ALTER VIEW FactSales AS
+DROP TABLE IF EXISTS [dbo].[FactSales];
+GO
+CREATE TABLE [dbo].[FactSales] AS
 SELECT *
-FROM DynUG_Lakehouse_Silver.[dbo].[FactSales];
+FROM [DynUG_Lakehouse_Silver].[dbo].[FactSales];
 GO
 
-CREATE OR ALTER VIEW customerreviews AS
+DROP TABLE IF EXISTS [dbo].[customerreviews];
+GO
+CREATE TABLE [dbo].[customerreviews] AS
 SELECT *
-FROM DynUG_Lakehouse_Silver.[dbo].[customerreviews];
+FROM [DynUG_Lakehouse_Silver].[dbo].[customerreviews];
 GO
 
-CREATE OR ALTER VIEW DimCustomer AS
+DROP TABLE IF EXISTS [dbo].[DimCustomer];
+GO
+CREATE TABLE [dbo].[DimCustomer] AS
 SELECT *
-FROM DynUG_Lakehouse_Silver.[dbo].[DimCustomer];
+FROM [DynUG_Lakehouse_Silver].[dbo].[DimCustomer];
 GO
 
-CREATE OR ALTER VIEW DimDate AS
+DROP TABLE IF EXISTS [dbo].[DimDate];
+GO
+CREATE TABLE [dbo].[DimDate] AS
 SELECT *
-FROM DynUG_Lakehouse_Silver.[dbo].[DimDate];
+FROM [DynUG_Lakehouse_Silver].[dbo].[DimDate];
 GO
 
-CREATE OR ALTER VIEW DimProduct AS
+DROP TABLE IF EXISTS [dbo].[DimProduct];
+GO
+CREATE TABLE [dbo].[DimProduct] AS
 SELECT *
-FROM DynUG_Lakehouse_Silver.[dbo].[DimProduct];
+FROM [DynUG_Lakehouse_Silver].[dbo].[DimProduct];
 GO
 
-CREATE OR ALTER VIEW DimStore AS
+DROP TABLE IF EXISTS [dbo].[DimStore];
+GO
+CREATE TABLE [dbo].[DimStore] AS
 SELECT *
-FROM DynUG_Lakehouse_Silver.[dbo].[DimStore];
+FROM [DynUG_Lakehouse_Silver].[dbo].[DimStore];
 GO
 ```
