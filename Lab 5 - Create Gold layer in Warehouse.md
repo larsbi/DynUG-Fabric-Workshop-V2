@@ -16,6 +16,7 @@ In Warehouse, create a New SQL query:
 
 <img width="400" height="124" alt="image" src="https://github.com/user-attachments/assets/ac9f4920-eed7-4f78-b011-446f3eb9522e" />
 
+
 Use this SQL to create the 6 views:
 
 ```sql
