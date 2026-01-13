@@ -2,17 +2,18 @@
 
 Create a semantic model based on Gold layer in Warehouse. Follow these steps:
 
-1.	Go to Warehouse “DynUG_Warehouse_Gold”, make sure you have all 5 views:
+1.	Go to Warehouse “DynUG_Warehouse_Gold”, make sure you have all 6 views:
 
-    <img width="437" height="605" alt="image" src="https://github.com/user-attachments/assets/02252061-7546-4004-894c-2a72b1fbbbd6" />
+    <img width="422" height="467" alt="image" src="https://github.com/user-attachments/assets/3183734a-33cf-4e35-b511-4f354c50111c" />
 
 3.	In Home ribbon, select New semantic model:
 
     <img width="649" height="113" alt="image" src="https://github.com/user-attachments/assets/003fa4fc-8298-492c-bdde-7d49afbc25cd" />
 
-5.	Use the name “Sales and sentiment model” and select all 6 views
+5.	Use the name “Sales and sentiment model” and select all 6 tables
 
-    <img width="598" height="732" alt="image" src="https://github.com/user-attachments/assets/ec944b86-1206-406c-9b98-a582bb1207e9" />
+    <img width="600" height="898" alt="image" src="https://github.com/user-attachments/assets/44ffe02b-88bd-402e-8f4b-6f8b096b2a19" />
+
 
     Click Confirm
 
@@ -29,11 +30,14 @@ Create a semantic model based on Gold layer in Warehouse. Follow these steps:
     customerreview.CustomerID -> FactSales.CustomerID
 
 9.	Validate the relationships and cardinality – it should be "Many to one" where Fact is on the Many-side. This can be validated by seeing * on the Fact and 1 on Dimensionts:
-<img width="940" height="686" alt="image" src="https://github.com/user-attachments/assets/ca2f314a-7a1b-4f07-b052-a26b4526bab9" />
+
+<img width="1006" height="641" alt="image" src="https://github.com/user-attachments/assets/a7d17076-f63a-4737-bafd-ebbf5a2a8d47" />
 
 If needed double-click a relationship and modify cardinality, and column mapping:
 
-<img width="863" height="1016" alt="image" src="https://github.com/user-attachments/assets/22aa75a6-7f3d-4cfe-87f9-8b4b3c973bec" />
+<img width="839" height="977" alt="image" src="https://github.com/user-attachments/assets/f312dd54-3383-47b5-9aa8-ede60f035932" />
+
+
 
 Now you created a basic semantic model in Direct Lake mode. In real life, you will also define measures, hide columns and configure data categories & summarize by for relevant columns and more.
 
@@ -55,4 +59,4 @@ Save the report with the name “Sales by sentiment”:
 
 Go back to the workspace and you have now created your small Fabric project, and the content of the workspace should look like this:
 
-<img width="940" height="504" alt="image" src="https://github.com/user-attachments/assets/5b26a54a-ad87-4052-94bd-5ff0e5924d1f" />
+<img width="1830" height="959" alt="image" src="https://github.com/user-attachments/assets/5b1ad21b-28bb-4da6-9add-37e6c5cfeb06" />
