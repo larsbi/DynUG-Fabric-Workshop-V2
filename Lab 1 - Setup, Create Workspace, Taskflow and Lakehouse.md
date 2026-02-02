@@ -29,7 +29,7 @@ Modify the link between "Gold data" and "Data visualize" to be a link between fr
 
 The Task flow should look like this:
 
-<img width="1743" height="261" alt="image" src="https://github.com/user-attachments/assets/9fbdc3ea-e135-476a-bdff-b1c4fcbcf00f" />
+<img width="1586" height="267" alt="image" src="https://github.com/user-attachments/assets/ededfedf-1f58-440f-bf91-3fa91c8c5c01" />
 
 # Create Lakehouse
 
