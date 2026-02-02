@@ -7,6 +7,8 @@
 
 # Upgrade all Dataflow Gen1 in a workspace
 ```python
+import sempy_labs as labs
+
 workspace_name = "<enter workspace name>"
 alldataflows = labs.list_dataflows(workspace_name)
 gen1dataflows = alldataflows[alldataflows["Generation"].str.lower().eq("gen1")]
