@@ -2,7 +2,7 @@
 
 Create a semantic model based on Gold layer in Warehouse. Follow these steps:
 
-1.	Go to Warehouse “DynUG_Warehouse_Gold”, make sure you have all 6 views:
+1.	Go to Warehouse “DynUG_Warehouse_Gold”, make sure you have all 6 tables:
 
     <img width="422" height="467" alt="image" src="https://github.com/user-attachments/assets/3183734a-33cf-4e35-b511-4f354c50111c" />
 
