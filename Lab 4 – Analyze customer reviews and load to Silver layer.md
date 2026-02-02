@@ -71,7 +71,11 @@ Next, we must make copies of the other four tables from DynUG_Lakehouse_Bronze t
 
 In this lab, we don’t need to perform further transformations, but we must get the other four tables from "DynUG_Lakehouse_Bronze" to "DynUG_Lakehouse_Silver". The easy way to achieve this is to create shortcuts Lakehouse "DynUG_Lakehouse_Silver". 
 
-Navigate to "DynUG_Lakehouse_Silver" and select "Get data" > "New shortcut" in Home ribbon. Select Microsoft OneLake followed by "DynUG_Lakehouse_Bronze", under Tables select:
+Navigate to "DynUG_Lakehouse_Silver" and create table shortcuts by selecting "New table shortcut" under dbo schema:
+
+<img width="507" height="359" alt="image" src="https://github.com/user-attachments/assets/19816d59-d102-45bb-b722-d3cc56ce48c2" />
+
+Select Microsoft OneLake followed by "DynUG_Lakehouse_Bronze", under Tables select:
 
 • DimCustomer
 
